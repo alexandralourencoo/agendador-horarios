@@ -22,7 +22,7 @@ public class AgendamentoEntity {
 
     private String produto;
     private String profissional;
-    private String Cliente;
+    private String cliente;
     private String telefoneCliente;
     private LocalDateTime dataHoraAgendamento;
     private LocalDateTime dataInsercao = LocalDateTime.now(); /* serve para pegar a data e a hora exatas do momento atual usando o relógio do sistema */
