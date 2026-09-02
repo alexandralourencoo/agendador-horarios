@@ -19,7 +19,6 @@ public class AgendamentoEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
-
     private String produto;
     private String profissional;
     private String cliente;
